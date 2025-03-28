@@ -53,14 +53,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardViewHolder
 
         CardViewHolder(View view){
             super(view);
-            imageViewChara = view.findViewById(R.id.cardViewImage);
-            textViewName = view.findViewById(R.id.cardViewTextName);
-            view.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Toast.makeText(view.getContext(), "I am "+textViewName.getText().toString(), Toast.LENGTH_SHORT).show();
-                }
-            });
+            // initialize fields
         }
 
     }
