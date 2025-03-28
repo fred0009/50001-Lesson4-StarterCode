@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageViewAdded;
     ArrayList<CardModel> dataSrc = new ArrayList<>();
 
-    final String KEY_DATA = "SHARED_PREF_DATA";
-    final String KEY_DATA_NAME = "SHARED_PREF_DATA_NAME";
+    final String KEY_DATA = "SHAREDPREF_DATA";
+    final String KEY_DATA_NAME = "SHAREDPREF_DATA_NAME";
     final String LOGCAT = "POKEDEX";
     final String PREF_FILE = "mainsharedpref";
 
