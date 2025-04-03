@@ -3,7 +3,6 @@ package com.example.norman_lee.recyclerview;
 import android.graphics.Bitmap;
 
 public class CardModel {
-
         private final String name;
         private final Bitmap img;
 
