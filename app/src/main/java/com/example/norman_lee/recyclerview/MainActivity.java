@@ -117,10 +117,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
                 //code to delete the view goes here
-                CardAdapter.CardViewHolder cardVH = (CardAdapter.CardViewHolder) viewHolder;
-                int position = cardVH.getBindingAdapterPosition();
-                dataSrc.remove(position);
-                cardAdapter.notifyItemRemoved(position);
+
             }
         };
         ItemTouchHelper itemTouchHelper
